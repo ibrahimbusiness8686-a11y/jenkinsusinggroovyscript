@@ -12,10 +12,6 @@ pipeline{
         bat 'java ibbu'
        }
        }
-       stage('deploy'){
-        steps{
-         echo 'deployment successful'
-        }
-       }
+     
     }
 }
